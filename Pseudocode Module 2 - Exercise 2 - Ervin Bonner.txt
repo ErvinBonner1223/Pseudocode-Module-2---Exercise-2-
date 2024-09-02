@@ -1,0 +1,19 @@
+Start
+	declare display
+	display = "Thanks for using this program"
+	declare accb
+	accb = account balance
+	set, init accb = 0
+	declare awo
+	awo = store the fee if the account was overdrawn
+	set, init awo = which is 1 percent of the balance minus 5 dollars for each time the account was overdrawn
+	input Collect the accb
+	input Collect the number of times the awo
+	process compute the free
+	process compute the accb - fee
+	process compute new accb
+	output fee that was calculated
+	output new accb
+	output Display 
+Stop
+	

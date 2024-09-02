@@ -1,0 +1,14 @@
+
+
+
+
+Start
+	declare hins
+	hins = "refridgerator model name"
+	input hins
+	input height
+	input width
+	input depth
+	output height x width x depth / cubic foot
+	print hins + capacity in cubic feet
+stop
